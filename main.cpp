@@ -2,6 +2,7 @@
 #include <tchar.h>
 #include <psapi.h>
 #include <processthreadsapi.h>
+#include <cstdio>
 
 void PrintProcessNameAndID( DWORD processID )
 {
